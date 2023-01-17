@@ -5,15 +5,14 @@ window.addEventListener("DOMContentLoaded", () => {
 
   document.body.addEventListener("click",() => {
 
+    for (let n=0; n<5; n++){
+
     let article=document.createElement("article");
     article.textContent="Text";
     article.classList="message"
     document.body.appendChild(article);
-
-    let article1=document.createElement("article");
-    article1.textContent="Text";
-    article1.classList="message"
-    document.body.appendChild(article1);
+}
+  
     
 
         
